@@ -1,7 +1,6 @@
 #!/Users/dland/virtualenv/netaddr/bin/python
 from netaddr import IPNetwork
 import etcd
-from optparse import OptionParser
 import sys
 import json
 from bottle import Bottle, response, request, abort
